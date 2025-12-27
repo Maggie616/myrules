@@ -1,6 +1,44 @@
-# fb相关
+# Meta Service Rule Set (Facebook, Instagram, WhatsApp, Threads)
+# 建议策略: PROXY
+
+# > Facebook
+DOMAIN-KEYWORD,facebook
 DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbaddins.com
 DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,fbworkmail.com
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,messenger.com
+
+# > Instagram
+DOMAIN-KEYWORD,instagram
 DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagr.am
+
+# > WhatsApp
+DOMAIN-KEYWORD,whatsapp
 DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,wa.me
+
+# > Threads
+DOMAIN-SUFFIX,threads.net
+
+# > Meta (Corporate & Tech)
+DOMAIN-KEYWORD,meta
 DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,metademocenter.com
+DOMAIN-SUFFIX,metajp.com
+DOMAIN-SUFFIX,metatest.com
+DOMAIN-SUFFIX,oculus.com
+DOMAIN-SUFFIX,oculuscdn.com
+DOMAIN-SUFFIX,workplace.com
+
+# > Giphy (Owned by Meta)
+DOMAIN-SUFFIX,giphy.com
+DOMAIN-SUFFIX,phncdn.com
