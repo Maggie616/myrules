@@ -1,28 +1,42 @@
-# TikTok相关
+# TikTok & CapCut (Global Services) Rule Set
+# 建议策略: Proxy (需支持 TikTok 解锁的节点)
+
+# > TikTok 核心域名
+DOMAIN-KEYWORD,tiktok
 DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,ttwstatic.com
-DOMAIN-SUFFIX,byteoversea.com
-DOMAIN-SUFFIX,bytedapm.com
-DOMAIN-SUFFIX,ibyteimg.com
-DOMAIN-SUFFIX,ipstatp.com
-DOMAIN-SUFFIX,bytefcdn-oversea.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokd.net
-DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,tiktokd.org
+DOMAIN-SUFFIX,tiktokmusic.app
+DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,bytedanceapi.com
-DOMAIN-SUFFIX,bytedns.net
-DOMAIN-SUFFIX,bytednsdoc.com
-DOMAIN-SUFFIX,bytedstatic.com
-DOMAIN-SUFFIX,bytedns.org
-DOMAIN-SUFFIX,bytetcdn.com
-DOMAIN-SUFFIX,amemv.com
-DOMAIN-SUFFIX,bytegecko.com
-DOMAIN-SUFFIX,bytegoofy.com
-DOMAIN-SUFFIX,tiktokcdn-us.com
-DOMAIN-SUFFIX,tiktokcdn-us.net
-DOMAIN-SUFFIX,tiktokcdn-eu.com
-DOMAIN-SUFFIX,tiktokcdn-eu.net
-DOMAIN-SUFFIX,tiktokcdn-asia.com
-DOMAIN-SUFFIX,tiktokcdn-asia.net
+DOMAIN-SUFFIX,muscdn.com
+
+# > TikTok 静态资源与数据收录 (字节跳动海外域名)
+DOMAIN-SUFFIX,byteintlapi.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,bytegecko-i18n.com
+DOMAIN-SUFFIX,bytedapm.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,sgpstatp.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,ttwebview.com
+
+# > CapCut (剪映海外版)
+DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,capcut.net
+DOMAIN-SUFFIX,capcutapi.com
+DOMAIN-SUFFIX,capcutdesktop.com
+
+# > 视频分发 CDN (Akamai 等)
+DOMAIN,p16-tiktokcdn-com.akamaized.net
+DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+DOMAIN,lf16-pkgcdn.pitaya-clientai.com
+
+# > 常用 User-Agent 匹配 (可选)
+USER-AGENT,TikTok*
+USER-AGENT,CapCut*
