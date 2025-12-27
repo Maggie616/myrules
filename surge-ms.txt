@@ -1,0 +1,40 @@
+# Microsoft Services (Optimized for Mainland China Direct)
+# 核心域名：包含系统更新、应用商店及基础身份验证
+DOMAIN-KEYWORD,microsoft
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,msftconnecttest.com
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,msauth.net
+
+# Office & OneDrive (大陆直连通常可跑满带宽)
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,1drv.ms
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,storage.live.com
+
+# Outlook & MSN (邮件服务直连更稳定)
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,msn.cn
+
+# Xbox & Gaming (下载加速)
+DOMAIN-SUFFIX,xbox.com
+DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,playfabapi.com
+
+# Azure 静态资源
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,aspnetcdn.com
+
+# Skype
+DOMAIN-SUFFIX,skype.com
