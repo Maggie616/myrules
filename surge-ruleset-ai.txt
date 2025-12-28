@@ -9,12 +9,12 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 
 # Google AI / Gemini
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,bard.google.com
+# DOMAIN-SUFFIX,googleapis.com
+# DOMAIN-SUFFIX,generativeai.google
+# DOMAIN-SUFFIX,bard.google.com
 
 # Perplexity
 DOMAIN-SUFFIX,perplexity.ai
 
 # Meta AI
-DOMAIN-SUFFIX,meta.ai
+# DOMAIN-SUFFIX,meta.ai
