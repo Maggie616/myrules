@@ -1,0 +1,7 @@
+# Yahoo Service Rule Set 
+# 建议策略: PROXY
+
+# > Yahoo
+DOMAIN-KEYWORD,yahoo
+DOMAIN-SUFFIX,answer.expert
+DOMAIN-SUFFIX,locale.guide
