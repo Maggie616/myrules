@@ -3,19 +3,75 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openaiapi.com
+DOMAIN,api.openai.com
+DOMAIN,chat.openai.com
+DOMAIN,auth.openai.com
+DOMAIN-SUFFIX,cdn.oaistatic.com
+DOMAIN-SUFFIX,files.oaiusercontent.com
+DOMAIN-SUFFIX,images.oaiusercontent.com
+DOMAIN-SUFFIX,platform.openai.com
+DOMAIN-SUFFIX,beta.openai.com
+DOMAIN-SUFFIX,sora.com
 
 # Anthropic
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,anthropic.ai
+DOMAIN-SUFFIX,anthropic.systems
+DOMAIN,api.anthropic.com
+DOMAIN,console.anthropic.com
+DOMAIN,statsig.anthropic.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,segment.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
 
 # Google AI / Gemini
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,vertexai.googleapis.com
+DOMAIN-SUFFIX,aiplatform.googleapis.com
 
-# Perplexity
+# AI - Microsoft Copilot / Azure OpenAI
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,openai.azure.com
+
+# AI - xAI / Grok
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.x.ai
+
+# AI - Perplexity
 DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
 
-# Meta AI
-# DOMAIN-SUFFIX,meta.ai
+# AI - Midjourney / Discord
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+
+# AI - Stability / Clipdrop
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,clipdrop.co
+
+# AI - HuggingFace
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.space
+
+# AI - Replicate
+DOMAIN-SUFFIX,replicate.com
+
+# AI - Together / OpenRouter
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,openrouter.ai
+
+# AI - Meta AI
+DOMAIN-SUFFIX,meta.ai
